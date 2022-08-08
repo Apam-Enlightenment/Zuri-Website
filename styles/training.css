@@ -1,0 +1,523 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFAFA;
+    font-family: Averta, sans-serif;
+}
+.nav-links{
+    display: none;
+}
+nav{
+    position: sticky;
+    top: 0;
+    background-color: #FFFAFA;
+    z-index: 9;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+nav > img{
+    height: 1.5rem;
+    margin-top: 2rem;
+}
+.enroll-div{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row-reverse;
+}
+.enroll{
+    background-color: #E7332B;
+    border: 1px solid #E7332B;
+    color: white;
+    font-size: 13pt;
+    border-radius: 1.5rem;
+    width: 8rem;
+    height: 2.8rem;
+    cursor: pointer;
+}
+.enroll-nav{
+    margin-top: .7rem;
+    margin-left: -1.5rem;
+
+}
+.thumb-container{
+    background-color: #E7332B;
+    border-radius: 2.1rem;
+    height: 4.2rem;
+    width: 4.2rem;
+}
+
+.thumb-inner img{
+    height: 3.1rem;
+    margin-top: .6rem;
+    margin-left: .6rem;
+    margin-right: .5rem;
+    margin-bottom: .5rem;
+}
+
+/* ----Header----*/
+header{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/section1wire.svg);
+    background-repeat: no-repeat;
+    background-position: 75% 100%;
+    padding-bottom: 5rem;
+    margin-bottom: 3rem;
+}
+.header-img{
+    width: 80%;
+    margin-left: 3rem;
+}
+.header-img-2{
+    display: none;
+}
+.male-face{
+    display: none;
+}
+.header-img img{
+    max-width: 100%;
+}
+.header-text{
+    text-align: center;
+    margin-top: -1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.header-text .p{
+    color: #E7332B;
+    opacity: .9;
+}
+.p2{
+    font-size: 13pt;
+    opacity: .8;
+    margin-top: 1.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.header-text h1{
+    opacity: .9;
+    font-size: 20pt;
+    padding-bottom: 1.5rem;
+    background-image: url(../img/line.svg);
+    background-repeat: no-repeat;
+    background-position: 83% 95%;
+}
+/* -----SECTION 1------ */
+.section-1{
+    margin-top: 1rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+.sec-1-head{
+    text-align: center;
+    padding-left: 0;
+}
+.sec-1-head h3{
+    padding-left: 0;
+    margin-top: 2rem;
+    font-size: 15pt;
+    opacity: .85;
+}
+.sec-1-logo{
+    margin: 0 auto;
+    width: 15rem;
+}
+.sec-1-logo img{
+    width: 15rem;
+    border: 1px solid #FFFAFA;
+}
+.sec-1-text{
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 1.5rem;
+    opacity: .7;
+    font-size: 14pt;
+}
+.sec-1-text p>a{
+    color: rgb(35, 171, 35);
+}
+
+/* -----SECTION 2 */
+.section-2{
+    /* border: 1px solid red; */
+    margin-top: 2rem;
+}
+hr{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: #a39c9c;
+    opacity: 0.4;
+}
+.section-2>img{
+    margin-left: 50%;
+}
+.sec-2-head{
+    display: flex;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.sec-2-head div>h3{
+    color: #E7332B;
+    font-weight: 200;
+    margin-bottom: 0;
+    opacity: .9;
+
+}
+.sec-2-head div>p{
+    font-weight: 700;
+    margin-top: 0;
+    font-size: 18pt;
+    opacity: .9;
+    line-height: 2rem;
+
+}
+.sec-2-head div>img{
+    display: none;
+}
+.section-2-cards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+}
+.section-2-card{
+    /* border: 1px solid red; */
+    margin-bottom: 1rem;
+    border-radius: 1.2rem;
+    height: 17rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    transition: transform .45s;
+}
+.section-2-card:hover{
+    transform:translateY(-0.6rem)
+}
+.section-2-card h2{
+    font-size: 40pt;
+    opacity: .9;
+    /* border: 1px solid red; */
+    margin-top: 0;
+}
+.section-2-card h3{
+    font-size: 20pt;
+    opacity: .9;
+    /* border: 1px solid red; */
+    margin-top: -1.5rem;
+    line-height: 2.2rem;
+}
+.section-2-card p{
+    font-size: 15pt;
+    opacity: .9;
+    /* border: 1px solid red; */
+}
+.red-card{
+    color: white;
+    background-color: #E7332B;
+    border: 1px solid #E7332B;
+    background-image: url(../img/curve-white.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+}
+.card-2, .card-3, .card-4, .card-5, .card-6{
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 0 0.6rem 1.5rem rgba(247, 112, 112, 0.1);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.card-2{
+    background-image: url(../img/curve-yellow.svg);
+}
+.card-3{
+    background-image: url(../img/curve-green.svg);
+}
+.card-4{
+    background-image: url(../img/curve-pink.svg);
+}
+.card-5{
+    background-image: url(../img/curve-orange.svg);
+}
+.card-6{
+    background-image: url(../img/curve-purple.svg);
+}
+
+/* SECTION 3 */
+.section-3{
+    background-color: rgba(243, 47, 36, 0.9);
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+    margin-top: 7rem;
+    color: white;
+}
+.section-3 h4{
+    font-weight: 100;
+    line-height: 2rem;
+    padding-bottom: 0;
+    margin-top: -1.5rem;
+}
+.section-3 h2{
+    /* font-weight: 100; */
+    font-size: 20pt;
+    line-height: 2.3rem;
+    padding-bottom: 0;
+    margin-top: -1.5rem;
+}
+.section-3 p{
+    line-height: 1.5rem;
+    font-size: 14pt;
+    margin-top: 2rem;
+}
+.sec-3-img-1{
+    margin-left: 50%;
+}
+.enroll-white{
+    font-size: 14pt;
+    border-radius: 1.5rem;
+    width: 9rem;
+    height: 2.5rem;
+    cursor: pointer;
+    background-color: white;
+    color: #E7332B;
+    border: 2px solid white;
+    box-shadow: 1px 1px 1px 1px rgb(238, 137, 137);
+}
+.tiles-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+.tile{
+    border: 2px solid white;
+    display: flex;
+    /* justify-content: space-around; */
+    border-radius: 5rem;
+    padding-right: 1rem;
+    height: 4rem;
+    width: 40%;
+    margin-bottom: 1rem;
+}
+.tile p{
+    /* border: 1px solid white; */
+    font-size: 11pt;
+    margin-top: 1.2rem;
+    margin-left: 1rem;
+}
+.tile img{
+    margin-top: .5rem;
+    margin-left: 1rem;
+}
+.girl-study{
+    /* width: 27rem; */
+    width: 100%;
+}
+
+/* ----SECTION 4 */
+.section-4{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+    margin-top: 2rem;
+}
+.section-4>h3{
+    color: #E7332B;
+    opacity: .9;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+.section-4>p{
+    opacity: .9;
+    font-size: 18pt;
+    font-weight: 600;
+    margin-top: 0;
+}
+.section-4>img{
+    width: 12rem;
+    margin-left: 25%;
+}
+.section-4-cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.section-4-card{
+    background-color: white;
+    box-shadow: 0 0.6rem 1.7rem rgba(210, 83, 83, 0.1);
+    border-radius: 2rem;
+    width: 80%;
+    padding: 2rem;
+    margin-bottom: 1rem;
+}.section-4-card p{
+    line-height: 1.5rem;
+    opacity: .9;
+    font-size: 12pt;
+    margin-top: 2rem;
+}
+.section-4-card h3{
+    opacity: .9;
+}
+.card-img img{
+    height: 3rem;
+    width: 3rem;
+}
+.section-4 .enroll{
+    margin-left: 30%;
+    margin-top: 3rem;
+}
+
+/* ----FOOTER---- */
+footer{
+    display: flex;
+    flex-direction: column;
+    padding: 2.5rem;
+    text-align: center;
+}
+.footer-inner-1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.footer-social img{
+    margin-right: .8rem;
+}
+.footer-inner-2{
+    display: flex;
+    flex-direction: column;
+}
+.footer-social{
+    margin-top: 1.5rem;
+}
+.footer-inner-2 h5{
+    font-size: 13pt;
+    font-weight: 100;
+    cursor: pointer;
+}
+.footer-inner-2 p{
+    border-top: 1px solid rgb(193, 177, 177);
+    padding-top: 1rem;
+}
+
+/* RESPONSIVE */
+@media (min-width: 620px){
+    .footer-inner-1 {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .footer-inner-2 {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .footer-inner-2 p{
+        border: none;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-inner-2 a{
+        margin-top: 1rem;
+    }
+    .footer-social{
+        display: flex;
+        margin: 0;
+    }
+    .section-4-card{
+        width: 60%;
+    }
+}
+@media (min-width:900px) {
+    .section-1{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .sec-1-logo, .sec-1-text, .sec-1-head{
+        width: 30%;
+    }
+    .sec-1-logo img{
+        margin-top: 1.5rem;
+    }
+    .male-face{
+        display: block;
+        margin-left: 8rem;
+    }
+    .sec-2-head div>img{
+        display: block;
+    }
+    .section-2-cards{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .section-2-card{
+        width: 35%;
+    }
+    .section-4-card{
+        width: 40%;
+    }
+}
+@media (min-width: 1000px) {
+    .nav-links{
+        display: block;
+    }
+    .nav-links ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        color: #514949;
+        opacity: .9;
+        gap: 4rem;
+    }
+    .section-3{
+        display: flex;
+        justify-content: space-between;
+    }
+    .section-3>div{
+        width: 45%;
+    }
+    .girl-study{
+        width: 40%;
+        height: 90%;
+    }
+    .section-4-card{
+        width: 25%;
+    }
+}
+@media (min-width: 1200px){
+    header{
+        flex-direction: row;
+        margin-top: 6rem;
+        padding-right: 2rem;
+    }
+    .header-img-2{
+        display: block;
+    }
+    .header-img-2 img{
+        height: 22rem;
+        margin-top: 3rem;
+    }
+    .header-text h1{
+        font-size: 35pt;
+        background-position: 60% 95%;
+    }
+    .male-face{
+        margin-left: -10rem;
+    }
+    .section-2-card{
+        width: 20%;
+    }
+}
