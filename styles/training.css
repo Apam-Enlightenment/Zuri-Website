@@ -148,14 +148,10 @@ header{
 
 /* -----SECTION 2 */
 .section-2{
-    /* border: 1px solid red; */
     margin-top: 2rem;
 }
 hr{
-    margin-left: 2rem;
-    margin-right: 2rem;
-    color: #a39c9c;
-    opacity: 0.4;
+    
 }
 .section-2>img{
     margin-left: 50%;
@@ -172,7 +168,7 @@ hr{
     opacity: .9;
 
 }
-.sec-2-head div>p{
+.sec-2-head div>h4{
     font-weight: 700;
     margin-top: 0;
     font-size: 18pt;
@@ -208,20 +204,17 @@ hr{
 .section-2-card h2{
     font-size: 40pt;
     opacity: .9;
-    /* border: 1px solid red; */
     margin-top: 0;
 }
 .section-2-card h3{
     font-size: 20pt;
     opacity: .9;
-    /* border: 1px solid red; */
     margin-top: -1.5rem;
     line-height: 2.2rem;
 }
 .section-2-card p{
     font-size: 15pt;
     opacity: .9;
-    /* border: 1px solid red; */
 }
 .red-card{
     color: white;
@@ -295,7 +288,7 @@ hr{
     background-color: white;
     color: #E7332B;
     border: 2px solid white;
-    box-shadow: 1px 1px 1px 1px rgb(238, 137, 137);
+    box-shadow: rgb(0 0 0 / 20%) 0px 2px 4px -1px, rgb(0 0 0 / 14%) 0px 4px 5px 0px, rgb(0 0 0 / 12%) 0px 1px 10px 0px;
 }
 .tiles-container{
     display: flex;
@@ -378,10 +371,226 @@ hr{
     width: 3rem;
 }
 .section-4 .enroll{
-    margin-left: 30%;
+    margin-left: 33%;
     margin-top: 3rem;
+    font-size: larger;
 }
 
+/* ----SECTION 5 */
+.section-5{
+    text-align: center;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 4rem;
+    margin-top: 1rem;
+    background-image: url(../img/section7wire.svg);
+    background-repeat: no-repeat;
+    background-position: 15% -5%;
+}
+hr{
+    margin-bottom: 6rem;
+    margin-left: .3rem;
+    margin-right: 1.5rem;
+    width: 100%;
+    color: #a39c9c;
+    opacity: 0.4;
+}
+.section-5 h3{
+    font-weight: 100;
+    opacity: .9;
+    color: #E7332B;
+    margin-bottom: 0;
+}
+.freq{
+    font-size: 1.5rem;
+    font-weight: 600;
+    opacity: .9;
+    margin-top: 0;
+}
+.questions{
+    margin-top: 5rem;
+}
+.q-box{
+    border: 1px solid #d3cbcb;
+    height: 3rem;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    opacity: .9;
+    font-size: 12pt;
+    font-weight: 550;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 2.5rem;
+    padding-bottom: .5rem;
+}
+.q-box p{
+    margin-top: 0;
+}
+.q-box-p-1{
+    width: 90%;
+}
+.still{
+    font-size: 13pt;
+    opacity: .9;
+    margin-top: 4rem;
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+}
+.tweet-us{
+    width: 12rem;
+    display: flex;
+    margin: 0 auto;
+    padding-left: .5rem;
+}
+.tweet-us p{
+    margin-top: 0.7rem;
+}
+
+/* -----SECTION 6---- */
+.section-6{
+    text-align: center;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 4rem;
+    margin-top: 1rem;
+    background-image: url(../img/section7wire.svg);
+    background-repeat: no-repeat;
+    background-position: 15% -3%;
+}
+.section-6 hr{
+    margin-bottom: 3rem;
+}
+.section-6>h3{
+    margin-top: 1.5rem;
+    color: #E7332B;
+    opacity: .9;
+    font-weight: 50;
+}
+.section-6>img{
+    height: 3.5rem;
+    margin-bottom: -3rem;
+    /* border: 1px solid green; */
+    margin-right: -80%;
+}
+.program{
+    font-size: 18pt;
+    opacity: .9;
+    font-weight: 600;
+    margin-top: -1rem;
+}
+.program-2{
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    font-weight: 10;
+    opacity: .9;
+}
+.section-6-cards{
+    display: flex;
+    flex-direction: column;
+}
+.section-6-card{
+    background-color: #1b1a20;
+    border: 1px solid #fff;
+    color: white;
+    border-radius: 65px;
+    box-shadow: 0 31px 60px rgba(231, 51, 43, .2);
+    box-sizing: border-box;
+    padding: 40px 48px;
+    text-align: left;
+    line-height: 1.5;
+    /* margin-bottom: 2.5rem; */
+}
+.hour{
+    background-image: url(../img/hour.png);
+    background-repeat: no-repeat;
+    background-size: 6rem;
+    background-position: 90% 90%;
+}
+.time{
+    background-image: url(../img/time.png);
+    background-repeat: no-repeat;
+    background-size: 10rem;
+    background-position: 90% 90%;
+}
+.section-6-card h2{
+    font-size: 27pt;
+    margin-bottom: -.5rem;
+}
+.section-6-card li{
+    font-size: 12pt;
+}
+.section-6-card h4{
+    font-size: 14pt;
+    margin-bottom: -1rem;
+}
+.section-6-card p{
+    margin-bottom: -1rem;
+}
+.section-6-card ul{
+    padding-left: 1rem;
+}
+.ul-no-style{
+    list-style: none;
+}
+.section-6-card-image{      
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: -4rem;
+    overflow: hidden;
+}
+.circle-show{
+    z-index: -9;
+    margin-right: -1rem;
+}
+.circle-hide{
+    display: none;
+}
+.section-7{
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 4rem;
+    margin-top: 1rem;
+}
+.section-7-inner{
+    padding-top: 2rem;
+    /* padding-bottom: 2rem; */
+    background-color: #E7332B;
+    color: white;
+    border-radius: 2rem;
+    background-image: url(../img/bend1.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.section-7-main{
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: -4rem;
+}
+.section-7-inner>img{
+    height: 6rem;
+    margin-left: 11%;
+}
+.section-7-inner h3{
+    font-weight: 5;
+}
+.section-7-inner p{
+    font-size: 20pt;
+    font-weight: 600;
+    line-height: 1.5;
+    width: 70%;
+    margin: 2rem auto;
+}
+.section-7-inner>div>img{
+    height: 5rem;
+}
+.section-7-inner-img{
+    display: flex;
+    justify-content: space-between;
+}
 /* ----FOOTER---- */
 footer{
     display: flex;
@@ -405,12 +614,13 @@ footer{
     margin-top: 1.5rem;
 }
 .footer-inner-2 h5{
-    font-size: 13pt;
+    font-size: 12pt;
     font-weight: 100;
     cursor: pointer;
 }
 .footer-inner-2 p{
     border-top: 1px solid rgb(193, 177, 177);
+    font-size: 11pt;
     padding-top: 1rem;
 }
 
@@ -442,6 +652,14 @@ footer{
     }
 }
 @media (min-width:900px) {
+    section{
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+    .section-4, .section-3{
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
     .section-1{
         flex-direction: row;
         justify-content: space-between;
@@ -466,8 +684,26 @@ footer{
     .section-2-card{
         width: 35%;
     }
+    .sec-2-head div>h4{
+        font-size: 20pt;
+        line-height: 2rem;
+    }
+    .sec-2-head-text{
+        width: 65%;
+        margin-right: 4rem;
+    }
     .section-4-card{
         width: 40%;
+    }
+    .section-4 .enroll{
+        margin-left: 45%;
+    }
+    .section-6-cards{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .section-6-card{
+        width: 45%;
     }
 }
 @media (min-width: 1000px) {
@@ -496,6 +732,12 @@ footer{
     .section-4-card{
         width: 25%;
     }
+    .sec-2-head-text{
+        width: 40%;
+    }
+    .sec-2-head{
+        justify-content: space-between;
+    }
 }
 @media (min-width: 1200px){
     header{
@@ -519,5 +761,11 @@ footer{
     }
     .section-2-card{
         width: 20%;
+    }
+    .sec-2-head-text{
+        width: 50%;
+    }
+    .sec-2-head-text h4{
+        font-size: 32pt;
     }
 }
